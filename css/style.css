@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&family=Poppins:ital,wght@0,600;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'heebo',sans-serif ;
+}
+.list{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------header start-------- */
+
+header {
+    padding-top: 100px;
+}
+.personal_info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #21243D;
+}
+.info_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+    padding-top: 30px;
+}
+.btn_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 21px;
+    margin-top: 30px;
+}
+/* -------------section start-------------- */
+
+section{
+    background-color:  #EDF7FA;
+    margin-top: 78px;
+    
+    padding: 20px 0px;
+}
+
+.card{
+    padding: 21px 23px;
+}
+
+.main_li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+main{
+    
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+color: #21243D;
+}
+
+
+.space{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.the-end{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.space a{
+    color: black;
+}
